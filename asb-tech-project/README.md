@@ -14,12 +14,18 @@ CVC input is validated:
 
 ExpiryDate input is validated:
   -required field
+  -digits only
+  -maximum 4 digits based on credit card expiry date 
 
 Sate Management is implemented as name insert for Welcome message.
 
 SPA concept implemented.
 
 Web application responsiveness is implmented.
+
+Styles are implemented.
+
+Clean code and code structure followed.
 
 Submission form displays alert with JSON result. 
 
