@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "skipLibCheck": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "./src/client/*",
+    "./src/client/types/**/*.d.ts"
+  ]
+}
